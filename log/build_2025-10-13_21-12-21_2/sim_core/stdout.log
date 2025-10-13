@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../build/sim_core/sim_core.egg-info
+writing ../../../build/sim_core/sim_core.egg-info/PKG-INFO
+writing dependency_links to ../../../build/sim_core/sim_core.egg-info/dependency_links.txt
+writing entry points to ../../../build/sim_core/sim_core.egg-info/entry_points.txt
+writing requirements to ../../../build/sim_core/sim_core.egg-info/requires.txt
+writing top-level names to ../../../build/sim_core/sim_core.egg-info/top_level.txt
+writing manifest file '../../../build/sim_core/sim_core.egg-info/SOURCES.txt'
+reading manifest file '../../../build/sim_core/sim_core.egg-info/SOURCES.txt'
+writing manifest file '../../../build/sim_core/sim_core.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ws/build/sim_core/build
+creating /root/ws/build/sim_core/build/lib
+creating /root/ws/build/sim_core/build/lib/sim_core
+copying sim_core/__init__.py -> /root/ws/build/sim_core/build/lib/sim_core
+copying sim_core/vehicle_dynamics.py -> /root/ws/build/sim_core/build/lib/sim_core
+copying sim_core/mimic_perception.py -> /root/ws/build/sim_core/build/lib/sim_core
+copying sim_core/state.py -> /root/ws/build/sim_core/build/lib/sim_core
+running install
+running install_lib
+creating /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+copying /root/ws/build/sim_core/build/lib/sim_core/__init__.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+copying /root/ws/build/sim_core/build/lib/sim_core/vehicle_dynamics.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+copying /root/ws/build/sim_core/build/lib/sim_core/mimic_perception.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+copying /root/ws/build/sim_core/build/lib/sim_core/state.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/__init__.py to __init__.cpython-312.pyc
+byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/vehicle_dynamics.py to vehicle_dynamics.cpython-312.pyc
+byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/mimic_perception.py to mimic_perception.cpython-312.pyc
+byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/state.py to state.cpython-312.pyc
+running install_data
+creating /root/ws/install/sim_core/share/ament_index
+creating /root/ws/install/sim_core/share/ament_index/resource_index
+creating /root/ws/install/sim_core/share/ament_index/resource_index/packages
+copying resource/sim_core -> /root/ws/install/sim_core/share/ament_index/resource_index/packages
+copying package.xml -> /root/ws/install/sim_core/share/sim_core
+copying README.md -> /root/ws/install/sim_core/share/sim_core
+creating /root/ws/install/sim_core/share/sim_core/launch
+copying launch/sim_launch.py -> /root/ws/install/sim_core/share/sim_core/launch
+running install_egg_info
+Copying ../../../build/sim_core/sim_core.egg-info to /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core-0.0.1-py3.12.egg-info
+running install_scripts
+Installing mimic_perception script to /root/ws/install/sim_core/lib/sim_core
+Installing vehicle_dynamics script to /root/ws/install/sim_core/lib/sim_core
+writing list of installed files to '/root/ws/build/sim_core/install.log'

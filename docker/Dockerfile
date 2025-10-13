@@ -49,5 +49,6 @@ RUN activate-global-python-argcomplete || true \
 WORKDIR /root/ws
 
 COPY docker/entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"] 
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["/bin/bash"]

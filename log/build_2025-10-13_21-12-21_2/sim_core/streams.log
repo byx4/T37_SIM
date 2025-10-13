@@ -1,0 +1,62 @@
+[0.333s] Invoking command in '/root/ws/ws/src/sim_core': PYTHONPATH=/root/ws/build/sim_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/sim_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sim_core build --build-base /root/ws/build/sim_core/build install --record /root/ws/build/sim_core/install.log --install-scripts $base/lib/sim_core --single-version-externally-managed install_data
+[0.385s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.385s] !!
+[0.385s] 
+[0.389s]         ********************************************************************************
+[0.389s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.389s]         versions. Please use the underscore name 'script_dir' instead.
+[0.389s] 
+[0.389s]         This deprecation is overdue, please update your project and remove deprecated
+[0.390s]         calls to avoid build errors in the future.
+[0.390s] 
+[0.390s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.390s]         ********************************************************************************
+[0.390s] 
+[0.390s] !!
+[0.390s]   opt = self.warn_dash_deprecation(opt, section)
+[0.426s] running egg_info
+[0.430s] creating ../../../build/sim_core/sim_core.egg-info
+[0.431s] writing ../../../build/sim_core/sim_core.egg-info/PKG-INFO
+[0.432s] writing dependency_links to ../../../build/sim_core/sim_core.egg-info/dependency_links.txt
+[0.432s] writing entry points to ../../../build/sim_core/sim_core.egg-info/entry_points.txt
+[0.432s] writing requirements to ../../../build/sim_core/sim_core.egg-info/requires.txt
+[0.432s] writing top-level names to ../../../build/sim_core/sim_core.egg-info/top_level.txt
+[0.433s] writing manifest file '../../../build/sim_core/sim_core.egg-info/SOURCES.txt'
+[0.444s] reading manifest file '../../../build/sim_core/sim_core.egg-info/SOURCES.txt'
+[0.445s] writing manifest file '../../../build/sim_core/sim_core.egg-info/SOURCES.txt'
+[0.445s] running build
+[0.445s] running build_py
+[0.446s] creating /root/ws/build/sim_core/build
+[0.446s] creating /root/ws/build/sim_core/build/lib
+[0.446s] creating /root/ws/build/sim_core/build/lib/sim_core
+[0.446s] copying sim_core/__init__.py -> /root/ws/build/sim_core/build/lib/sim_core
+[0.447s] copying sim_core/vehicle_dynamics.py -> /root/ws/build/sim_core/build/lib/sim_core
+[0.447s] copying sim_core/mimic_perception.py -> /root/ws/build/sim_core/build/lib/sim_core
+[0.448s] copying sim_core/state.py -> /root/ws/build/sim_core/build/lib/sim_core
+[0.456s] running install
+[0.456s] running install_lib
+[0.457s] creating /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+[0.457s] copying /root/ws/build/sim_core/build/lib/sim_core/__init__.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+[0.458s] copying /root/ws/build/sim_core/build/lib/sim_core/vehicle_dynamics.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+[0.458s] copying /root/ws/build/sim_core/build/lib/sim_core/mimic_perception.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+[0.459s] copying /root/ws/build/sim_core/build/lib/sim_core/state.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+[0.460s] byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/__init__.py to __init__.cpython-312.pyc
+[0.461s] byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/vehicle_dynamics.py to vehicle_dynamics.cpython-312.pyc
+[0.462s] byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/mimic_perception.py to mimic_perception.cpython-312.pyc
+[0.462s] byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/state.py to state.cpython-312.pyc
+[0.463s] running install_data
+[0.463s] creating /root/ws/install/sim_core/share/ament_index
+[0.464s] creating /root/ws/install/sim_core/share/ament_index/resource_index
+[0.464s] creating /root/ws/install/sim_core/share/ament_index/resource_index/packages
+[0.464s] copying resource/sim_core -> /root/ws/install/sim_core/share/ament_index/resource_index/packages
+[0.464s] copying package.xml -> /root/ws/install/sim_core/share/sim_core
+[0.465s] copying README.md -> /root/ws/install/sim_core/share/sim_core
+[0.466s] creating /root/ws/install/sim_core/share/sim_core/launch
+[0.466s] copying launch/sim_launch.py -> /root/ws/install/sim_core/share/sim_core/launch
+[0.467s] running install_egg_info
+[0.473s] Copying ../../../build/sim_core/sim_core.egg-info to /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core-0.0.1-py3.12.egg-info
+[0.477s] running install_scripts
+[0.516s] Installing mimic_perception script to /root/ws/install/sim_core/lib/sim_core
+[0.517s] Installing vehicle_dynamics script to /root/ws/install/sim_core/lib/sim_core
+[0.517s] writing list of installed files to '/root/ws/build/sim_core/install.log'
+[0.530s] Invoked command in '/root/ws/ws/src/sim_core' returned '0': PYTHONPATH=/root/ws/build/sim_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/sim_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sim_core build --build-base /root/ws/build/sim_core/build install --record /root/ws/build/sim_core/install.log --install-scripts $base/lib/sim_core --single-version-externally-managed install_data

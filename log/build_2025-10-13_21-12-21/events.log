@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000092] (-) JobUnselected: {'identifier': 'sim_core'}
+[0.000138] (-) EventReactorShutdown: {}
