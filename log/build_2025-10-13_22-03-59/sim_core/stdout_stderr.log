@@ -8,11 +8,14 @@ reading manifest file '../../../build/sim_core/sim_core.egg-info/SOURCES.txt'
 writing manifest file '../../../build/sim_core/sim_core.egg-info/SOURCES.txt'
 running build
 running build_py
-copying sim_core/__init__.py -> /root/ws/build/sim_core/build/lib/sim_core
+copying sim_core/vehicle_dynamics.py -> /root/ws/build/sim_core/build/lib/sim_core
+copying sim_core/mimic_perception.py -> /root/ws/build/sim_core/build/lib/sim_core
 running install
 running install_lib
-copying /root/ws/build/sim_core/build/lib/sim_core/__init__.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
-byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/__init__.py to __init__.cpython-312.pyc
+copying /root/ws/build/sim_core/build/lib/sim_core/vehicle_dynamics.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+copying /root/ws/build/sim_core/build/lib/sim_core/mimic_perception.py -> /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core
+byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/vehicle_dynamics.py to vehicle_dynamics.cpython-312.pyc
+byte-compiling /root/ws/install/sim_core/lib/python3.12/site-packages/sim_core/mimic_perception.py to mimic_perception.cpython-312.pyc
 running install_data
 running install_egg_info
 removing '/root/ws/install/sim_core/lib/python3.12/site-packages/sim_core-0.0.1-py3.12.egg-info' (and everything under it)
