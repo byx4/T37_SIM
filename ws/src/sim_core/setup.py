@@ -9,10 +9,10 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages', ['resource/sim_core']),
         ('share/sim_core', ['package.xml', 'README.md']),
-        ('share/sim_core/launch', ['launch/sim_launch.py'])
+        ('share/sim_core/launch', ['launch/sim_launch.py']),
+        ('share/sim_core/launch', ['launch/sim_rviz.launch.py'])
     ],
-    install_requires=['setuptools'],
-    zip_safe=True,
+    install_requires=['setuptools', 'PyYAML'],
     maintainer='bryanx',
     maintainer_email='bryanx@cs.washington.edu',
     description='Minimal simulator core for driverless FSAE (ROS2 Jazzy).',
@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'sim_loop = sim_core.sim_loop:main',
             'mimic_perception = sim_core.mimic_perception:main',
             'vehicle_dynamics = sim_core.vehicle_dynamics:main'
         ],
