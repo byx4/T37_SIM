@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
 docker run --rm -it \
-  -v "$(pwd)/ws:/home/dev/ws" \
-  -w /home/dev/ws" \
+  -v "$(pwd)/ws:/root/ws" \
+  -w "/root/ws" \
   t37-sim:jazzy bash

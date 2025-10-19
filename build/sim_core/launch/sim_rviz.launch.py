@@ -1,0 +1,1 @@
+/root/ws/ws/src/sim_core/launch/sim_rviz.launch.py

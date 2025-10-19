@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing sim_core.egg-info/PKG-INFO
+writing dependency_links to sim_core.egg-info/dependency_links.txt
+writing entry points to sim_core.egg-info/entry_points.txt
+writing requirements to sim_core.egg-info/requires.txt
+writing top-level names to sim_core.egg-info/top_level.txt
+reading manifest file 'sim_core.egg-info/SOURCES.txt'
+writing manifest file 'sim_core.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ws/install/sim_core/lib/python3.12/site-packages/sim-core.egg-link (link to .)
+Installing mimic_perception script to /root/ws/install/sim_core/lib/sim_core
+Installing sim_loop script to /root/ws/install/sim_core/lib/sim_core
+Installing vehicle_dynamics script to /root/ws/install/sim_core/lib/sim_core
+
+Installed /root/ws/build/sim_core
+running symlink_data
+symbolically linking /root/ws/build/sim_core/resource/sim_core -> /root/ws/install/sim_core/share/ament_index/resource_index/packages
+symbolically linking /root/ws/build/sim_core/package.xml -> /root/ws/install/sim_core/share/sim_core
+symbolically linking /root/ws/build/sim_core/README.md -> /root/ws/install/sim_core/share/sim_core
+symbolically linking /root/ws/build/sim_core/launch/sim_launch.py -> /root/ws/install/sim_core/share/sim_core/launch
+symbolically linking /root/ws/build/sim_core/launch/sim_rviz.launch.py -> /root/ws/install/sim_core/share/sim_core/launch

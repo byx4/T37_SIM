@@ -1,0 +1,19 @@
+[0.258s] Invoking command in '/root/ws/build/sim_core': PYTHONPATH=/root/ws/build/sim_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/sim_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ws/build/sim_core/build --no-deps symlink_data
+[0.359s] running develop
+[0.418s] running egg_info
+[0.422s] writing sim_core.egg-info/PKG-INFO
+[0.423s] writing dependency_links to sim_core.egg-info/dependency_links.txt
+[0.423s] writing entry points to sim_core.egg-info/entry_points.txt
+[0.423s] writing requirements to sim_core.egg-info/requires.txt
+[0.424s] writing top-level names to sim_core.egg-info/top_level.txt
+[0.436s] reading manifest file 'sim_core.egg-info/SOURCES.txt'
+[0.437s] writing manifest file 'sim_core.egg-info/SOURCES.txt'
+[0.442s] running build_ext
+[0.443s] Creating /root/ws/install/sim_core/lib/python3.12/site-packages/sim-core.egg-link (link to .)
+[0.443s] Installing mimic_perception script to /root/ws/install/sim_core/lib/sim_core
+[0.444s] Installing sim_loop script to /root/ws/install/sim_core/lib/sim_core
+[0.445s] Installing vehicle_dynamics script to /root/ws/install/sim_core/lib/sim_core
+[0.445s] 
+[0.446s] Installed /root/ws/build/sim_core
+[0.446s] running symlink_data
+[0.461s] Invoked command in '/root/ws/build/sim_core' returned '0': PYTHONPATH=/root/ws/build/sim_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/sim_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ws/build/sim_core/build --no-deps symlink_data
